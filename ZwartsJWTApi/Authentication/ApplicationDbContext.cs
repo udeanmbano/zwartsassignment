@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ZwartsJWTApi.Models;
 
 namespace ZwartsJWTApi.Authentication
 {
@@ -21,6 +22,17 @@ namespace ZwartsJWTApi.Authentication
                 table.HasOne(x => x.toDoList)
                 .WithMany(x => x.toDoListItems)
                 .HasForeignKey(x => x.ToDoListId)
+                .HasPrincipalKey(x => x.Id)
+                .OnDelete(DeleteBehavior.Cascade);
+            });
+
+            builder.Entity<ToDoList>(table =>
+            {
+                table.HasKey(x => x.Id);
+
+                table.HasOne(x => x.applicationUser)
+                .WithMany(x => x.toDoList)
+                .HasForeignKey(x => x.UserId)
                 .HasPrincipalKey(x => x.Id)
                 .OnDelete(DeleteBehavior.Cascade);
             });

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ZwartsJWTApi.Authentication
+namespace ZwartsJWTApi.Models
 {
     public class RegisterModel
     {

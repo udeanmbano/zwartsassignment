@@ -1,4 +1,4 @@
-﻿namespace ZwartsJWTApi.Authentication
+﻿namespace ZwartsJWTApi.Models
 {
     public static class UserRoles
     {

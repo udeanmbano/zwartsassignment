@@ -66,3 +66,4 @@ C:\Projects\ZwartsSolution\ZwartsJWTApi\obj\Debug\netcoreapp3.1\ZwartsJWTApi.csp
 C:\Projects\ZwartsSolution\ZwartsJWTApi\obj\Debug\netcoreapp3.1\ZwartsJWTApi.dll
 C:\Projects\ZwartsSolution\ZwartsJWTApi\obj\Debug\netcoreapp3.1\ZwartsJWTApi.pdb
 C:\Projects\ZwartsSolution\ZwartsJWTApi\obj\Debug\netcoreapp3.1\ZwartsJWTApi.genruntimeconfig.cache
+C:\Projects\ZwartsSolution\ZwartsJWTApi\obj\Debug\netcoreapp3.1\ZwartsJWTApi.csprojAssemblyReference.cache
