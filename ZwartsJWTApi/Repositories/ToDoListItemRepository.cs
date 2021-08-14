@@ -18,11 +18,11 @@ namespace ZwartsJWTApi.Repositories
             this._context = applicationDbContext;
         }
 
-       public List<ToDoListItems> GetToDoItemLists(int toDoListId)
+        public List<ToDoListItems> GetToDoItemLists(int toDoListId)
         {
-            return _context.toDoListItems.Where(a => a.ToDoListId==toDoListId).ToList();
+            return _context.toDoListItems.Where(a => a.ToDoListId == toDoListId).ToList();
         }
-       public ToDoListItems GetToDoListItemByID(int toDoListId)
+        public ToDoListItems GetToDoListItemByID(int toDoListId)
         {
             return _context.toDoListItems.Find(toDoListId);
         }
@@ -33,7 +33,7 @@ namespace ZwartsJWTApi.Repositories
         }
         public async Task DeleteToDoListItem(int toDoListId)
         {
-           ToDoListItems toDoListItem = await _context.toDoListItems.FindAsync(toDoListId);
+            ToDoListItems toDoListItem = await _context.toDoListItems.FindAsync(toDoListId);
             _context.toDoListItems.Remove(toDoListItem);
             await _context.SaveChangesAsync();
         }
@@ -42,13 +42,13 @@ namespace ZwartsJWTApi.Repositories
             _context.Entry(toDoListItems).State = EntityState.Modified;
             await _context.SaveChangesAsync();
         }
-       public bool ToDoListExists(int toDoListItemId)
+        public bool ToDoListItemExists(int toDoListItemId)
         {
             return _context.toDoLists.Count(e => e.Id == toDoListItemId) > 0;
         }
         public async Task MarkToDone(ToDoListItems toDoListItems)
         {
-         
+
             _context.Entry(toDoListItems).State = EntityState.Modified;
             await _context.SaveChangesAsync();
         }
@@ -74,6 +74,6 @@ namespace ZwartsJWTApi.Repositories
             GC.SuppressFinalize(this);
         }
 
-       
+
     }
 }

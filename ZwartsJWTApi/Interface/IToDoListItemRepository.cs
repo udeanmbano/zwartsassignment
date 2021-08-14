@@ -13,7 +13,7 @@ namespace ZwartsJWTApi.Interface
         Task InsertToDoListItem(ToDoListItems toDoListItems);
         Task DeleteToDoListItem(int toDoListId);
         Task UpdateToDoListItem(ToDoListItems toDoListItems);
-        bool ToDoListExists(int toDoListId);
+        bool ToDoListItemExists(int toDoListId);
         Task MarkToDone(ToDoListItems toDoListItems);
         Task Save();
     }

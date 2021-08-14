@@ -19,9 +19,9 @@ namespace ZwartsJWTApi.Repositories
         }
         public List<ToDoList> GetToDoLists(String UserId)
         {
-            return _context.toDoLists.Where(a=>a.UserId.Equals(UserId)).ToList();
+            return _context.toDoLists.Where(a => a.UserId.Equals(UserId)).ToList();
         }
-       public ToDoList GetToDoListByID(int toDoListId)
+        public ToDoList GetToDoListByID(int toDoListId)
         {
             return _context.toDoLists.Find(toDoListId);
         }
@@ -36,7 +36,7 @@ namespace ZwartsJWTApi.Repositories
             _context.toDoLists.Remove(toDoList);
             await _context.SaveChangesAsync();
         }
-       public async Task UpdateToDoList(ToDoList toDoList)
+        public async Task UpdateToDoList(ToDoList toDoList)
         {
             _context.Entry(toDoList).State = EntityState.Modified;
             await _context.SaveChangesAsync();
@@ -67,6 +67,6 @@ namespace ZwartsJWTApi.Repositories
             GC.SuppressFinalize(this);
         }
 
-        
+
     }
 }

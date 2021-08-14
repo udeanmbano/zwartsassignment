@@ -63,7 +63,7 @@ namespace ZwartsJWTApi.Controllers
                 {
                     token = new JwtSecurityTokenHandler().WriteToken(token),
                     expiration = token.ValidTo,
-                    UserId=user.Id
+                    UserId = user.Id
                 });
             }
             return Unauthorized();

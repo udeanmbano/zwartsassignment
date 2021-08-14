@@ -25,7 +25,13 @@ namespace ZwartsJWTApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddCors(); // Make sure you call this previous to AddMvc  
+            // In general
+            services.AddCors(o => o.AddPolicy("AllowAllPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+            }));
             // For Entity Framework
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
 
@@ -65,12 +71,9 @@ namespace ZwartsJWTApi
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseCors(builder => builder
-              .AllowAnyHeader()
-              .AllowAnyMethod()
-              .SetIsOriginAllowed((host) => true)
-              .AllowCredentials()
-          );
+
+            app.UseCors("AllowAllPolicy");
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
