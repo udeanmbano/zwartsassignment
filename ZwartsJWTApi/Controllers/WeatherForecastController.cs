@@ -10,7 +10,7 @@ using ZwartsJWTApi.Models;
 
 namespace ZwartsJWTApi.Controllers
 {
-    [Authorize(Roles = UserRoles.Admin)]
+    [Authorize(Roles = "Admin, User")]
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
