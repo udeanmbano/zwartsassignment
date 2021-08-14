@@ -54,7 +54,6 @@ C:\Projects\ZwartsSolution\ZwartsJWTApi\bin\Debug\netcoreapp3.1\runtimes\win-x86
 C:\Projects\ZwartsSolution\ZwartsJWTApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Projects\ZwartsSolution\ZwartsJWTApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Projects\ZwartsSolution\ZwartsJWTApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Projects\ZwartsSolution\ZwartsJWTApi\obj\Debug\netcoreapp3.1\ZwartsJWTApi.csprojAssemblyReference.cache
 C:\Projects\ZwartsSolution\ZwartsJWTApi\obj\Debug\netcoreapp3.1\ZwartsJWTApi.AssemblyInfoInputs.cache
 C:\Projects\ZwartsSolution\ZwartsJWTApi\obj\Debug\netcoreapp3.1\ZwartsJWTApi.AssemblyInfo.cs
 C:\Projects\ZwartsSolution\ZwartsJWTApi\obj\Debug\netcoreapp3.1\ZwartsJWTApi.csproj.CoreCompileInputs.cache
