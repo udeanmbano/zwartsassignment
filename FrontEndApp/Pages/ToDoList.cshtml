@@ -44,8 +44,7 @@
                     <label for="make" class="col-sm-2 control-label">Description:</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="Description" placeholder="please enter make" data-ng-model="newToDoLists.description" required />
-                        <input type="hidden" class="form-control" id="userId" data-ng-model="newToDoLists.userId" value="{{userId}}" />
-
+                     
                     </div>
                 </div>
               
@@ -89,7 +88,7 @@
                       
                         
                         <td>
-                            <p data-ng-hide="ToDoLists.editMode"><a data-ng-click="toggleEdit(ToDoLists)" href="javascript:;">Edit</a> | <a data-ng-click="deleteToDoLists(ToDoLists)" href="javascript:;">Delete</a> | <a data-ng-click="deleteToDoLists(ToDoLists)" href="javascript:;">Go to Items</a> </p>
+                            <p data-ng-hide="ToDoLists.editMode"><a data-ng-click="toggleEdit(ToDoLists)" href="javascript:;">Edit</a> | <a data-ng-click="deleteToDoLists(ToDoLists)" href="javascript:;">Delete</a> | <a data-ng-click="ItemToDoLists(ToDoLists)" href="javascript:;">Go to Items</a> </p>
                             <p data-ng-show="ToDoLists.editMode"><a data-ng-click="save(ToDoLists)" href="javascript:;">Save</a> | <a data-ng-click="toggleEdit(ToDoLists)" href="javascript:;">Cancel</a></p>
            
                         </td>

@@ -37,5 +37,6 @@ C:\Projects\ZwartsSolution\FrontEndApp\obj\Debug\netcoreapp3.1\FrontEndApp.cspro
 C:\Projects\ZwartsSolution\FrontEndApp\obj\Debug\netcoreapp3.1\Razor\Pages\Register.cshtml.g.cs
 C:\Projects\ZwartsSolution\FrontEndApp\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LoggedLayout.cshtml.g.cs
 C:\Projects\ZwartsSolution\FrontEndApp\obj\Debug\netcoreapp3.1\Razor\Pages\ToDoList.cshtml.g.cs
-C:\Projects\ZwartsSolution\FrontEndApp\obj\Debug\netcoreapp3.1\FrontEndApp.csprojAssemblyReference.cache
 C:\Projects\ZwartsSolution\FrontEndApp\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
+C:\Projects\ZwartsSolution\FrontEndApp\obj\Debug\netcoreapp3.1\Razor\Pages\ToDoListItem.cshtml.g.cs
+C:\Projects\ZwartsSolution\FrontEndApp\obj\Debug\netcoreapp3.1\FrontEndApp.csprojAssemblyReference.cache
