@@ -1,0 +1,10 @@
+<div class="modal-header">
+    <h3 class="modal-title" id="modal-title">{{ pc.title }}</h3>
+</div>
+<div idle-countdown="countdown" ng-init="countdown=5" class="modal-body" id="modal-body">
+        <uib-progressbar max="5" value="5" animate="false" class="progress-striped active">You'll be logged out in {{countdown}} second(s).</uib-progressbar>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="pc.ok()">OK</button>
+    <button class="btn btn-warning" type="button" ng-click="pc.cancel()">Cancel</button>
+</div>
