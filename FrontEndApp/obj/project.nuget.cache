@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FoIhHv7Du80WXAYBaGc5fbE4kF14DTGFmxYfjW7aRZwylip3V2EZf2HU5vSrqrOoM9LoLdRzChOdVB1nFlgBAA==",
+  "dgSpecHash": "NnyQf6cWvl5hgCtXZU7aqlmHW9JBet1lFSgKZ5o5G0GpUGeL1FB3iZKjOWXikxXjfTT3T1RRHUpDfksb6jbVJg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\ZwartsSolution\\FrontEndApp\\FrontEndApp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\udean\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

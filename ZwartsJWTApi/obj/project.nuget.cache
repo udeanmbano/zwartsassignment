@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h+uUXG6CWjrLvhMucYKVMAU8ZALLPjBjr+tKmUSm4aXJkd5ddSUJSrVU7sSXKWeaw6mqavsL3+ELb4fKlH0Wvw==",
+  "dgSpecHash": "01HfZkC0GqnXM+d/cKMxhauhYOCzikHnBvKox8gvm659YLUtk1qgZy+yZidK2EL3CC8tJtRhMwT/mxDstLo5vQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\ZwartsSolution\\ZwartsJWTApi\\ZwartsJWTApi.csproj",
   "expectedPackageFiles": [
@@ -130,8 +130,7 @@
     "C:\\Users\\udean\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\udean\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\udean\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\udean\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\udean\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+    "C:\\Users\\udean\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
